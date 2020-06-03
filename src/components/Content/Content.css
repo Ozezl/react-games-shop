@@ -1,0 +1,26 @@
+.content {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.content-genre {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.content-midText {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content-popular {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    height: 100vh;
+}

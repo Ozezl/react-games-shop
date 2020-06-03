@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.css';
-import Logo from './Logo'
-import Search from './Search';
-import Basket from './Basket';
+import Logo from '../Logo/Logo'
+import Search from '../Search/Search';
+import Basket from '../Basket/Basket';
 
 export default function Header() {
     return (
