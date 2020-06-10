@@ -2,8 +2,9 @@ import React from 'react';
 import './Content.css';
 import Card from '../Card/Card'
 import Platform from '../Platform/Platform';
+import { connect } from 'react-redux';
 
-export default function Content() {
+export function Content(props) {
     return (
         <div className = "content">
             <div className="content-genre">
@@ -15,17 +16,20 @@ export default function Content() {
                 Popular
             </div>
             <div className="content-popular">
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
+                {
+                    props.items.map(item => {
+                       return <Card id={item.id} title={item.title} platform={item.platform} price={item.price} image={item.image}/>
+                    })
+                }
             </div>
         </div>
     )    
 }
+
+const mapStateToProps = (state) => {
+    return({
+        items: state.items
+    })
+}
+
+export default connect(mapStateToProps)(Content)

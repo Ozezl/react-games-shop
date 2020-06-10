@@ -1,6 +1,14 @@
 .platform {
     height: 70px;
-    width: 270px;
+    width: 30%;
     background-color: hotpink;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.platform:hover {
+    background-color: indianred;
 }
