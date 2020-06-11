@@ -8,6 +8,7 @@ export function Card(props) {
 
     function handleClick (id) {
         props.addToCart(id)
+        alert('Item is added to the Cart')
     }
 
     function handleBoxToggle() {
@@ -55,4 +56,4 @@ const mapDispatchToProps = (dispatch) => {
     })
 }
 
-export default connect(mapDispatchToProps)(Card)
+export default connect(null, mapDispatchToProps)(Card)

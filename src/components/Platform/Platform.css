@@ -1,7 +1,7 @@
 .platform {
     height: 70px;
     width: 30%;
-    background-color: hotpink;
+    background-color: #999999;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,5 +10,6 @@
 }
 
 .platform:hover {
-    background-color: indianred;
+    background-color: gray;
+    color: whitesmoke;
 }
