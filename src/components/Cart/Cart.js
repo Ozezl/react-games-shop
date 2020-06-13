@@ -20,6 +20,7 @@ export function Cart(props) {
                     :
                     (<span>
                         Nothing is here
+                        {props.total}
                     </span>)
                 }
             </div>

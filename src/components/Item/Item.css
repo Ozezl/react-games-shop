@@ -1,4 +1,43 @@
 .item { 
     display: flex;
-    width: 80%;
+    align-items: center;
+    height: 100%;
+}
+
+.item-image {
+    display: block;
+}
+
+.item-innerWrapper {
+    display: block;
+    width: 100%;
+    height: 288px;
+    position: relative;
+}
+
+.item-innerWrapper-description {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    font-weight: 700;
+}
+
+.item-innerWrapper-upperText {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.item-innerWrapper-counter {
+    position: absolute;
+    top: 43%;
+    left: 80%;
+}
+
+.item-innerWrapper-counter label {
+    font-weight: 700;
 }

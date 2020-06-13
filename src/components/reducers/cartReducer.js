@@ -18,16 +18,15 @@ const initState = {
     total: 0
 }
 
-const cartReducer = (state = initState, action) => {
+export default function cartReducer(state = initState, action) {
     if(action.type === 'ADD_TO_CART') {
         let addedItem = state.items.find(item => item.id === action.id)
         //check if the action id exists in the addedItems
         let existedItem= state.addedItems.find(item => action.id === item.id)
-
        if(existedItem) {
             addedItem.quantity += 1 
             return ({
-              ...state,
+               ...state,
                total: state.total + addedItem.price 
             })
        }
@@ -47,4 +46,3 @@ const cartReducer = (state = initState, action) => {
         return state
     }
 }
-export default cartReducer;

@@ -27,7 +27,7 @@ export function Content(props) {
 }
 
 const mapStateToProps = (state) => {
-    return({
+    return ({
         items: state.items
     })
 }

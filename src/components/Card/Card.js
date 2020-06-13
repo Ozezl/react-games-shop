@@ -1,21 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Card.css';
 import {connect} from 'react-redux'
 import {addToCart} from '../actions/cartActions'
 
 export function Card(props) {
-    const [show, setShow] = useState(true);
-
     function handleClick (id) {
         props.addToCart(id)
         alert('Item is added to the Cart')
     }
 
-    function handleBoxToggle() {
-        setShow(!show)
-    }
-
-    if(show){
     return (
         <div className = "card">
             <div className="card-wrapper">
@@ -34,18 +27,13 @@ export function Card(props) {
                 <span>Add to cart</span>
             </div>
         </div>
-    )}
-    else{
-    return (
-        <div className = "card">
-            <div className="card-image">
-                <img src={props.image} height="278" width="190" alt={props.title} onMouseOver={() => {handleBoxToggle()}}/>
-            </div>
-            <div className="card-buyButton" onClick={() => {handleClick(props.id)}}>
-                <span>Add to cart</span>
-            </div>
-        </div>
-    )}
+    )
+}
+
+const mapStateToProps = (state) => {
+    return ({
+        items: state.items
+    })
 }
 
 const mapDispatchToProps = (dispatch) => {
@@ -56,4 +44,4 @@ const mapDispatchToProps = (dispatch) => {
     })
 }
 
-export default connect(null, mapDispatchToProps)(Card)
+export default connect(mapStateToProps, mapDispatchToProps)(Card)

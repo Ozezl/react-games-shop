@@ -3,7 +3,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import './App.css';
 import Header from './components/Header/Header'
 import Content from './components/Content/Content';
-import { Cart } from './components/Cart/Cart';
+import Cart from './components/Cart/Cart';
 
 function App() {
   return (
