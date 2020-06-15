@@ -1,7 +1,25 @@
 import React from 'react';
+import { connect } from 'react-redux'
+import { removeItem, addItem, subtractItem } from '../actions/cartActions'
 import './Item.css';
 
-export default function Item(props) {
+export function Item(props) {
+    function handleClick() {
+        props.update()
+    }  
+
+    function handleRemove(id) {
+        props.removeItem(id)
+    }
+
+    function handleAddition(id) {
+        props.addItem(id)
+    }
+
+    function handleDecrement(id) {
+        props.subtractItem(id)
+    }
+
     return (
         <div className="item-outerWrapper">
             <hr/>
@@ -21,7 +39,12 @@ export default function Item(props) {
                     <div className="item-innerWrapper-counter">
                         <label>Amount</label>
                         <br/>
-                        <input type="number" min="1" max="999" placeholder='1' onKeyDown="return false"/>
+                        <button onClick={() => {handleDecrement(props.id);  handleClick()}}>-</button>
+                        <input type="number" min="1" max="999" placeholder={props.quantity} readOnly="readOnly"/>
+                        <button onClick={() => {handleAddition(props.id); handleClick()}}>+</button>
+                    </div>
+                    <div className="item-innerWrapper-removeButton">
+                        <button onClick={() => {handleRemove(props.id)}}>Remove</button>
                     </div>
                 </div>
             </div>
@@ -29,3 +52,13 @@ export default function Item(props) {
         </div>
     )
 }
+
+const mapDispatchToProps = (dispatch) => {
+    return ({
+        removeItem: (id) => {dispatch(removeItem(id))},
+        addItem: (id) => {dispatch(addItem(id))},
+        subtractItem: (id) => {dispatch(subtractItem(id))}
+    })
+}
+
+export default connect(null, mapDispatchToProps)(Item)

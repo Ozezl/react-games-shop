@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useReducer } from 'react';
 import { connect } from 'react-redux'
 import './Cart.css';
 import Item from '../Item/Item'
 
 export function Cart(props) {
+    const [ignored, forceUpdate] = useReducer(x => x + 1, 0);
+
+    function handleClick() {
+        forceUpdate()
+    }  
+
     return(
         <div className="cart">
             <div className="cart-description">
@@ -14,7 +20,7 @@ export function Cart(props) {
                     props.items !== undefined && props.items.length > 0?
                     props.items.map(item => {
                         return (
-                            <Item key={item.id} image={item.image} title={item.title} platform={item.platform} price={item.price}/> 
+                            <Item key={item.id} id={item.id} image={item.image} title={item.title} platform={item.platform} price={item.price} quantity={item.quantity} update={() => {handleClick()}}/>
                         )
                     })
                     :

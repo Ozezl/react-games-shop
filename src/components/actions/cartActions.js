@@ -4,3 +4,24 @@ export const addToCart = (id) => {
         id: id 
     })
 }
+
+export const removeItem = (id) => {
+    return ({
+        type: 'REMOVE_ITEM',
+        id: id 
+    })
+}
+
+export const addItem = (id) => {
+    return ({
+        type: 'ADD_ITEM',
+        id: id 
+    })
+}
+
+export const subtractItem = (id) => {
+    return ({
+        type: 'SUBTRACT_ITEM',
+        id: id 
+    })
+}

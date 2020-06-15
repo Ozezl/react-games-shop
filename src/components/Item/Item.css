@@ -39,5 +39,35 @@
 }
 
 .item-innerWrapper-counter label {
-    font-weight: 700;
+    display: inline-block;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+
+.item-innerWrapper-counter input {
+    border: 1px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.item-innerWrapper-counter input::-webkit-outer-spin-button,
+.item-innerWrapper-counter input::-webkit-inner-spin-button,
+.item-innerWrapper-counter input[type=number] {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    margin: 0;
+}
+
+.item-innerWrapper-counter button {
+    border-radius: 50%;
+    border: 0px;
+}
+
+.item-innerWrapper-removeButton {
+    position: absolute;
+    top: 70%;
+    left: 82%;
 }

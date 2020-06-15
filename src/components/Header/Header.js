@@ -10,7 +10,7 @@ export default function Header() {
         <div className = "header">
             <Link to="/"><Logo/></Link>
             <Search/>
-           <Link to="/cart"><Basket/></Link>
+            <Link to="/cart"><Basket/></Link>
         </div>
     )
 }
