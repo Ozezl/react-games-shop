@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-games-shop/static/css/main.d0fef970.chunk.css",
+    "main.css": "/react-games-shop/static/css/main.2abdb15c.chunk.css",
     "main.js": "/react-games-shop/static/js/main.d0d918d6.chunk.js",
     "main.js.map": "/react-games-shop/static/js/main.d0d918d6.chunk.js.map",
     "runtime-main.js": "/react-games-shop/static/js/runtime-main.4a31b54d.js",
@@ -8,9 +8,9 @@
     "static/js/2.5b106aa2.chunk.js": "/react-games-shop/static/js/2.5b106aa2.chunk.js",
     "static/js/2.5b106aa2.chunk.js.map": "/react-games-shop/static/js/2.5b106aa2.chunk.js.map",
     "index.html": "/react-games-shop/index.html",
-    "precache-manifest.d97f7bca6bdcd6a04a545eb8812912ae.js": "/react-games-shop/precache-manifest.d97f7bca6bdcd6a04a545eb8812912ae.js",
+    "precache-manifest.88cc139ab1fde135eb6545ee040945dd.js": "/react-games-shop/precache-manifest.88cc139ab1fde135eb6545ee040945dd.js",
     "service-worker.js": "/react-games-shop/service-worker.js",
-    "static/css/main.d0fef970.chunk.css.map": "/react-games-shop/static/css/main.d0fef970.chunk.css.map",
+    "static/css/main.2abdb15c.chunk.css.map": "/react-games-shop/static/css/main.2abdb15c.chunk.css.map",
     "static/js/2.5b106aa2.chunk.js.LICENSE.txt": "/react-games-shop/static/js/2.5b106aa2.chunk.js.LICENSE.txt",
     "static/media/gta-v.jpg": "/react-games-shop/static/media/gta-v.be07ce6c.jpg",
     "static/media/metal-gear-5.png": "/react-games-shop/static/media/metal-gear-5.4a885e79.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.4a31b54d.js",
     "static/js/2.5b106aa2.chunk.js",
-    "static/css/main.d0fef970.chunk.css",
+    "static/css/main.2abdb15c.chunk.css",
     "static/js/main.d0d918d6.chunk.js"
   ]
 }
