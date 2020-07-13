@@ -11,6 +11,7 @@ export function Content(props) {
                 <Platform platform = "PS4"/>
                 <Platform platform = "XBOX"/>
                 <Platform platform = "SWITCH"/>
+                <Platform platform = "ALL"/>
             </div>
             <div className="content-midText">
                 Popular
@@ -18,7 +19,7 @@ export function Content(props) {
             <div className="content-popular">
                 {
                     props.items.map(item => {
-                       return <Card key={item.id} id={item.id} title={item.title} platform={item.platform} price={item.price} image={item.image}/>
+                       return (<Card key={item.id} id={item.id} title={item.title} platform={item.platform} price={item.price} image={item.image}/>)
                     })
                 }
             </div>

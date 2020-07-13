@@ -46,6 +46,9 @@ export function Item(props) {
                     <div className="item-innerWrapper-removeButton">
                         <button onClick={() => {handleRemove(props.id)}}>Remove</button>
                     </div>
+                    <div className="item-innerWrapper-itemPrice">
+                        Price: {props.price * props.quantity} dollars
+                    </div>
                 </div>
             </div>
             <hr/>

@@ -25,3 +25,17 @@ export const subtractItem = (id) => {
         id: id 
     })
 }
+
+export const filterItems = (title) => {
+    return ({
+        type: 'FILTER_ITEMS',
+        title: title 
+    })
+}
+
+export const changePlatform = (platform) => {
+    return ({
+        type: 'CHANGE_PLATFORM',
+        platform: platform 
+    })
+}

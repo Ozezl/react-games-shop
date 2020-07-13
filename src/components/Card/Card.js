@@ -4,9 +4,9 @@ import {connect} from 'react-redux'
 import {addToCart} from '../actions/cartActions'
 
 export function Card(props) {
-    function handleClick (id) {
+    function handleClick (id, title) {
         props.addToCart(id)
-        alert('Item is added to the Cart')
+        alert(title + ' is added to the Cart')
     }
 
     return (
@@ -23,7 +23,7 @@ export function Card(props) {
                     <span>Price: {props.price} dollars</span>
                 </div>
             </div>
-            <div className="card-buyButton" onClick={() => {handleClick(props.id)}}>
+            <div className="card-buyButton" onClick={() => {handleClick(props.id, props.title)}}>
                 <span>Add to cart</span>
             </div>
         </div>

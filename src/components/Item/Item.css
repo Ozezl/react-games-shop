@@ -48,7 +48,7 @@
 .item-innerWrapper-counter input {
     border: 1px;
     color: white;
-    background-color: black;
+    background-color: #adadad;
     text-align: center;
     margin: 0 15px;
 }
@@ -70,4 +70,11 @@
     position: absolute;
     top: 70%;
     left: 82%;
+}
+
+.item-innerWrapper-itemPrice {
+    position: absolute;
+    font-weight: 600;
+    bottom: 10%;
+    left: 50%
 }

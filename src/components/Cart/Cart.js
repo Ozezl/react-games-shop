@@ -10,6 +10,10 @@ export function Cart(props) {
         forceUpdate()
     }  
 
+    function handleButton() {
+        alert('Placeholder');
+    }
+
     return(
         <div className="cart">
             <div className="cart-description">
@@ -26,9 +30,15 @@ export function Cart(props) {
                     :
                     (<span>
                         Nothing is here
-                        {props.total}
                     </span>)
+
                 }
+            </div>
+            <div className="cart-total">
+                <div>
+                    The total amount is: {props.total} dollars
+                </div>
+                <button onClick={() => {handleButton()}}>Pay now</button>
             </div>
         </div>
     )
@@ -36,7 +46,8 @@ export function Cart(props) {
 
 const mapStateToProps = (state) => {
     return ({
-        items: state.addedItems
+        items: state.addedItems,
+        total: state.total
     })
 }
 

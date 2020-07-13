@@ -13,3 +13,13 @@
 .cart-items {
     margin-top: 4%;
 }
+
+.cart-total {
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.cart-total button {
+    width: 10%;
+    height: 2rem;
+}

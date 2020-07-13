@@ -38,7 +38,7 @@ export default function cartReducer(state = initState, action) {
             return ({
                 ...state,
                 addedItems: [...state.addedItems, addedItem],
-                total : newTotal
+                total: newTotal
             })
         }
     }
@@ -53,6 +53,39 @@ export default function cartReducer(state = initState, action) {
             addedItems: new_items,
             total: newTotal
         })
+    }
+    if(action.type === 'FILTER_ITEMS') {
+        let newFilter = action.title
+        let filteredItems = state.items.filter(item => item.title.toLowerCase().includes(newFilter.toLowerCase())) 
+
+        return (
+            newFilter === '' ?
+            {
+                ...state,
+                items: initState.items
+            }
+            :
+            {
+                ...state,
+                items: filteredItems
+            } 
+            )
+    }
+    if(action.type === 'CHANGE_PLATFORM') {
+        let filteredItems = initState.items.filter(item => item.platform.toLowerCase().includes(action.platform.toLowerCase())) 
+
+        return (
+            action.platform === 'ALL' ?
+            {
+                ...state,
+                items: initState.items
+            }
+            :
+            {
+                ...state,
+                items: filteredItems
+            } 
+            )
     }
     if(action.type === 'ADD_ITEM') {
         let addedItem = state.items.find(item => item.id === action.id)
