@@ -47,9 +47,8 @@
 
 .item-innerWrapper-counter input {
     border: 1px;
-    color: white;
-    background-color: #adadad;
     text-align: center;
+    border: 1px solid rgb(110, 110, 110);
     margin: 0 15px;
 }
 
@@ -69,7 +68,7 @@
 .item-innerWrapper-removeButton {
     position: absolute;
     top: 70%;
-    left: 82%;
+    left: 80%;
 }
 
 .item-innerWrapper-itemPrice {
@@ -77,4 +76,33 @@
     font-weight: 600;
     bottom: 10%;
     left: 50%
+}
+
+@media screen and (max-width: 720px) {
+    .item-innerWrapper-removeButton {
+        top: 83%;
+        left: 20%;
+    }
+
+    .item-innerWrapper-upperText {
+        display: none;
+    }
+    
+    .item-innerWrapper-description {
+        top: 0%;
+        left: 20%;
+        font-weight: 700;
+    }
+
+    .item-innerWrapper-itemPrice {
+        font-weight: 600;
+        bottom: 20%;
+        left: 20%
+    }
+
+    .item-innerWrapper-counter {
+        position: absolute;
+        top: 43%;
+        left: 15%;
+    }
 }

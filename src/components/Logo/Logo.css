@@ -4,10 +4,36 @@
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: bold;
 }
 
 .logo:hover {
     color: gray;
+}
+
+.logo-mobile {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    cursor: pointer;
+    font-weight: bold;
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .logo-mobile {
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+        cursor: pointer;
+        font-weight: bold;
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
 }

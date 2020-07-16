@@ -1,8 +1,9 @@
 .header {
     display: flex;
     height: 60px;
-    background-color: #EE6E73;
+    background-color: rgb(19,96,164);
     box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.4);
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }

@@ -5,6 +5,7 @@
 }
 
 .content-genre {
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin: 20px 0;
@@ -12,9 +13,9 @@
 
 .content-midText {
     text-align: center;
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
 }
 
 .content-popular {
@@ -23,4 +24,27 @@
     justify-content: flex-start;
     align-content: space-between;
     height: 100vh;
+}
+
+@media screen and (max-width: 720px) {
+    .content-popular {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-between;
+        height: 100%;
+    }
+
+    .content-popular-item {
+        margin: 0 auto;
+    }
+
+    .content-genre {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px 0;
+    }
 }

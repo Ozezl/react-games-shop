@@ -1,4 +1,10 @@
 import React from 'react';
+import {
+    AwesomeButton,
+    AwesomeButtonProgress,
+    AwesomeButtonSocial,
+  } from 'react-awesome-button';
+import 'react-awesome-button/dist/themes/theme-blue.css';
 import { connect } from 'react-redux'
 import { removeItem, addItem, subtractItem } from '../actions/cartActions'
 import './Item.css';
@@ -44,7 +50,7 @@ export function Item(props) {
                         <button onClick={() => {handleAddition(props.id); handleClick()}}>+</button>
                     </div>
                     <div className="item-innerWrapper-removeButton">
-                        <button onClick={() => {handleRemove(props.id)}}>Remove</button>
+                        <AwesomeButton onPress={() => {handleRemove(props.id)}} type="secondary" size="small">Remove</AwesomeButton>
                     </div>
                     <div className="item-innerWrapper-itemPrice">
                         Price: {props.price * props.quantity} dollars

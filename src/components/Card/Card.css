@@ -16,7 +16,7 @@
 
 .card-wrapper-image {
     position: absolute;
-    top: 0;
+    top: 0; 
     left: 0;
     transform: translateY(-100%);
 }
@@ -32,12 +32,23 @@
 }
 
 .card-buyButton {
-    background-color: orange;
+    margin-top: 3%;
     display: flex;
     justify-content: center;
-    cursor: pointer;
 }
 
-.card-buyButton:hover {
-    background-color: orangered;
+@media screen and (max-width: 720px) {
+   .card {
+        width: 100%;
+        margin: 8% auto;
+   }
+
+   .card-buyButton {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-wrapper-image img {
+        width: 100%;
+    }
 }

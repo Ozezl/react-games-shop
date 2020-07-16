@@ -1,4 +1,10 @@
 import React from 'react';
+import {
+    AwesomeButton,
+    AwesomeButtonProgress,
+    AwesomeButtonSocial,
+  } from 'react-awesome-button';
+import 'react-awesome-button/dist/themes/theme-blue.css';
 import './Card.css';
 import {connect} from 'react-redux'
 import {addToCart} from '../actions/cartActions'
@@ -23,8 +29,8 @@ export function Card(props) {
                     <span>Price: {props.price} dollars</span>
                 </div>
             </div>
-            <div className="card-buyButton" onClick={() => {handleClick(props.id, props.title)}}>
-                <span>Add to cart</span>
+            <div className="card-buyButton">
+                <AwesomeButton onPress={() => {handleClick(props.id, props.title)}} type="primary" size="medium">Add to cart</AwesomeButton>
             </div>
         </div>
     )

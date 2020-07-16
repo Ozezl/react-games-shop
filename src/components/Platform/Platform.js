@@ -1,4 +1,10 @@
 import React from 'react';
+import {
+    AwesomeButton,
+    AwesomeButtonProgress,
+    AwesomeButtonSocial,
+  } from 'react-awesome-button';
+import 'react-awesome-button/dist/themes/theme-blue.css';
 import {connect} from 'react-redux'
 import {changePlatform} from '../actions/cartActions'
 import './Platform.css';
@@ -9,8 +15,8 @@ export function Platform(props) {
     }
 
     return (
-        <div className = "platform" onClick = {() =>{clickHandler(props.platform)}}>
-            {props.platform}
+        <div className = "platform">
+            <AwesomeButton onPress={() =>{clickHandler(props.platform)}} type="secondary" size="large">{props.platform}</AwesomeButton>
         </div>
     )    
 }

@@ -1,15 +1,10 @@
 .platform {
-    height: 70px;
-    width: 23%;
-    background-color: #999999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    cursor: pointer;
 }
 
-.platform:hover {
-    background-color: gray;
-    color: whitesmoke;
+@media screen and (max-width: 720px) {
+    .platform {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
 }

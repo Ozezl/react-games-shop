@@ -1,5 +1,11 @@
 import React, { useReducer } from 'react';
 import { connect } from 'react-redux'
+import {
+    AwesomeButton,
+    AwesomeButtonProgress,
+    AwesomeButtonSocial,
+  } from 'react-awesome-button';
+import 'react-awesome-button/dist/themes/theme-blue.css';
 import './Cart.css';
 import Item from '../Item/Item'
 
@@ -38,7 +44,7 @@ export function Cart(props) {
                 <div>
                     The total amount is: {props.total} dollars
                 </div>
-                <button onClick={() => {handleButton()}}>Pay now</button>
+                <AwesomeButton onPress={() => {handleButton()}} type="primary" size="medium">Pay now</AwesomeButton>
             </div>
         </div>
     )
