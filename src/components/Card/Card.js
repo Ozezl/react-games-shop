@@ -1,4 +1,5 @@
 import React from 'react';
+import Swal from 'sweetalert2'
 import {
     AwesomeButton,
     AwesomeButtonProgress,
@@ -12,7 +13,13 @@ import {addToCart} from '../actions/cartActions'
 export function Card(props) {
     function handleClick (id, title) {
         props.addToCart(id)
-        alert(title + ' is added to the Cart')
+        Swal.fire({
+            title: 'Item added!',
+            text: title + ' was added to the cart',
+            icon: 'success',
+            confirmButtonText: 'Cool'
+          })
+        //alert(title + ' is added to the Cart')
     }
 
     return (
