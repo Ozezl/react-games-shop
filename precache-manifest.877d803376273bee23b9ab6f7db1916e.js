@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3089aef756f17108e931a8215f14e4c",
+    "revision": "cbe7a8779c903c3df8cb16e918e7b2de",
     "url": "/react-games-shop/index.html"
   },
   {
-    "revision": "a764765f19ca8e02cc70",
-    "url": "/react-games-shop/static/css/main.5b506bfa.chunk.css"
+    "revision": "7195580f760b883fe890",
+    "url": "/react-games-shop/static/css/2.523d07b1.chunk.css"
   },
   {
-    "revision": "41cdec6d094a5511fc98",
-    "url": "/react-games-shop/static/js/2.5b106aa2.chunk.js"
+    "revision": "dcb0642307dfbdb03890",
+    "url": "/react-games-shop/static/css/main.4bf78270.chunk.css"
+  },
+  {
+    "revision": "7195580f760b883fe890",
+    "url": "/react-games-shop/static/js/2.d18a0059.chunk.js"
   },
   {
     "revision": "4ba1a1c11c57ed15aa68008707a3d6b4",
-    "url": "/react-games-shop/static/js/2.5b106aa2.chunk.js.LICENSE.txt"
+    "url": "/react-games-shop/static/js/2.d18a0059.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a764765f19ca8e02cc70",
-    "url": "/react-games-shop/static/js/main.d0d918d6.chunk.js"
+    "revision": "dcb0642307dfbdb03890",
+    "url": "/react-games-shop/static/js/main.881b7881.chunk.js"
   },
   {
     "revision": "62b8947cc9c1921d9314",

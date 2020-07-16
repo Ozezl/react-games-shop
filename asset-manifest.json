@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/react-games-shop/static/css/main.5b506bfa.chunk.css",
-    "main.js": "/react-games-shop/static/js/main.d0d918d6.chunk.js",
-    "main.js.map": "/react-games-shop/static/js/main.d0d918d6.chunk.js.map",
+    "main.css": "/react-games-shop/static/css/main.4bf78270.chunk.css",
+    "main.js": "/react-games-shop/static/js/main.881b7881.chunk.js",
+    "main.js.map": "/react-games-shop/static/js/main.881b7881.chunk.js.map",
     "runtime-main.js": "/react-games-shop/static/js/runtime-main.4a31b54d.js",
     "runtime-main.js.map": "/react-games-shop/static/js/runtime-main.4a31b54d.js.map",
-    "static/js/2.5b106aa2.chunk.js": "/react-games-shop/static/js/2.5b106aa2.chunk.js",
-    "static/js/2.5b106aa2.chunk.js.map": "/react-games-shop/static/js/2.5b106aa2.chunk.js.map",
+    "static/css/2.523d07b1.chunk.css": "/react-games-shop/static/css/2.523d07b1.chunk.css",
+    "static/js/2.d18a0059.chunk.js": "/react-games-shop/static/js/2.d18a0059.chunk.js",
+    "static/js/2.d18a0059.chunk.js.map": "/react-games-shop/static/js/2.d18a0059.chunk.js.map",
     "index.html": "/react-games-shop/index.html",
-    "precache-manifest.2ab92eee9c75cddc2b4fb4dbeb4c2ab3.js": "/react-games-shop/precache-manifest.2ab92eee9c75cddc2b4fb4dbeb4c2ab3.js",
+    "precache-manifest.877d803376273bee23b9ab6f7db1916e.js": "/react-games-shop/precache-manifest.877d803376273bee23b9ab6f7db1916e.js",
     "service-worker.js": "/react-games-shop/service-worker.js",
-    "static/css/main.5b506bfa.chunk.css.map": "/react-games-shop/static/css/main.5b506bfa.chunk.css.map",
-    "static/js/2.5b106aa2.chunk.js.LICENSE.txt": "/react-games-shop/static/js/2.5b106aa2.chunk.js.LICENSE.txt",
+    "static/css/2.523d07b1.chunk.css.map": "/react-games-shop/static/css/2.523d07b1.chunk.css.map",
+    "static/css/main.4bf78270.chunk.css.map": "/react-games-shop/static/css/main.4bf78270.chunk.css.map",
+    "static/js/2.d18a0059.chunk.js.LICENSE.txt": "/react-games-shop/static/js/2.d18a0059.chunk.js.LICENSE.txt",
     "static/media/gta-v.jpg": "/react-games-shop/static/media/gta-v.be07ce6c.jpg",
     "static/media/metal-gear-5.png": "/react-games-shop/static/media/metal-gear-5.4a885e79.png",
     "static/media/red-dead-redemption-2.jpg": "/react-games-shop/static/media/red-dead-redemption-2.69a52df5.jpg",
@@ -21,8 +23,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4a31b54d.js",
-    "static/js/2.5b106aa2.chunk.js",
-    "static/css/main.5b506bfa.chunk.css",
-    "static/js/main.d0d918d6.chunk.js"
+    "static/css/2.523d07b1.chunk.css",
+    "static/js/2.d18a0059.chunk.js",
+    "static/css/main.4bf78270.chunk.css",
+    "static/js/main.881b7881.chunk.js"
   ]
 }
