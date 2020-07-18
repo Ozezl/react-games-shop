@@ -1,4 +1,5 @@
 import React from 'react';
+import Swal from 'sweetalert2'
 import {
     AwesomeButton,
     AwesomeButtonProgress,
@@ -14,8 +15,14 @@ export function Item(props) {
         props.update()
     }  
 
-    function handleRemove(id) {
+    function handleRemove(id, title) {
         props.removeItem(id)
+        Swal.fire({
+            title: 'Item removed!',
+            text: title + ' was removed from the cart',
+            icon: 'warning',
+            confirmButtonText: 'Ok'
+          })
     }
 
     function handleAddition(id) {
@@ -50,7 +57,7 @@ export function Item(props) {
                         <button onClick={() => {handleAddition(props.id); handleClick()}}>+</button>
                     </div>
                     <div className="item-innerWrapper-removeButton">
-                        <AwesomeButton onPress={() => {handleRemove(props.id)}} type="secondary" size="small">Remove</AwesomeButton>
+                        <AwesomeButton onPress={() => {handleRemove(props.id, props.title)}} type="secondary" size="small">Remove</AwesomeButton>
                     </div>
                     <div className="item-innerWrapper-itemPrice">
                         Price: {props.price * props.quantity} dollars
