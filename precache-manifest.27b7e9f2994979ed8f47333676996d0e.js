@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87b83e51c1c2e77a15080f306724a587",
+    "revision": "9c79d084567fe0208ccc464698743a56",
     "url": "/react-games-shop/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-games-shop/static/css/2.523d07b1.chunk.css"
   },
   {
-    "revision": "d97f0bf1fe056a4fd014",
+    "revision": "4edfc98878b73653754a",
     "url": "/react-games-shop/static/css/main.4bf78270.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-games-shop/static/js/2.9136694b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d97f0bf1fe056a4fd014",
-    "url": "/react-games-shop/static/js/main.10434557.chunk.js"
+    "revision": "4edfc98878b73653754a",
+    "url": "/react-games-shop/static/js/main.eb871e28.chunk.js"
   },
   {
     "revision": "62b8947cc9c1921d9314",
@@ -32,20 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-games-shop/static/media/gta-v.be07ce6c.jpg"
   },
   {
-    "revision": "4a885e7981733a910d38553cd8a5126c",
-    "url": "/react-games-shop/static/media/metal-gear-5.4a885e79.png"
+    "revision": "35bde5cb8c52e58505e7a5b9f8ebc365",
+    "url": "/react-games-shop/static/media/metal-gear-5.35bde5cb.svg"
   },
   {
     "revision": "69a52df5c05ae75b176205b1cba35aac",
     "url": "/react-games-shop/static/media/red-dead-redemption-2.69a52df5.jpg"
   },
   {
-    "revision": "53617b455d61c02d0e000732fcf1baf6",
-    "url": "/react-games-shop/static/media/resident-evil-4.53617b45.jpeg"
+    "revision": "7993fd3f5a78ea87b9af2ad6148ca281",
+    "url": "/react-games-shop/static/media/resident-evil-4.7993fd3f.svg"
   },
   {
-    "revision": "157471a7e4813db0e86aa291e57a4bbb",
-    "url": "/react-games-shop/static/media/skyrim.157471a7.jpg"
+    "revision": "03aeaf163a45afeac50109597f948016",
+    "url": "/react-games-shop/static/media/skyrim.03aeaf16.svg"
   },
   {
     "revision": "761d8ed7a71a51d636238b597d7342aa",

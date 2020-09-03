@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/react-games-shop/static/css/main.4bf78270.chunk.css",
-    "main.js": "/react-games-shop/static/js/main.10434557.chunk.js",
-    "main.js.map": "/react-games-shop/static/js/main.10434557.chunk.js.map",
+    "main.js": "/react-games-shop/static/js/main.eb871e28.chunk.js",
+    "main.js.map": "/react-games-shop/static/js/main.eb871e28.chunk.js.map",
     "runtime-main.js": "/react-games-shop/static/js/runtime-main.4a31b54d.js",
     "runtime-main.js.map": "/react-games-shop/static/js/runtime-main.4a31b54d.js.map",
     "static/css/2.523d07b1.chunk.css": "/react-games-shop/static/css/2.523d07b1.chunk.css",
     "static/js/2.9136694b.chunk.js": "/react-games-shop/static/js/2.9136694b.chunk.js",
     "static/js/2.9136694b.chunk.js.map": "/react-games-shop/static/js/2.9136694b.chunk.js.map",
     "index.html": "/react-games-shop/index.html",
-    "precache-manifest.33b8763f730d17c807dfe13c7017bcd4.js": "/react-games-shop/precache-manifest.33b8763f730d17c807dfe13c7017bcd4.js",
+    "precache-manifest.27b7e9f2994979ed8f47333676996d0e.js": "/react-games-shop/precache-manifest.27b7e9f2994979ed8f47333676996d0e.js",
     "service-worker.js": "/react-games-shop/service-worker.js",
     "static/css/2.523d07b1.chunk.css.map": "/react-games-shop/static/css/2.523d07b1.chunk.css.map",
     "static/css/main.4bf78270.chunk.css.map": "/react-games-shop/static/css/main.4bf78270.chunk.css.map",
     "static/js/2.9136694b.chunk.js.LICENSE.txt": "/react-games-shop/static/js/2.9136694b.chunk.js.LICENSE.txt",
     "static/media/gta-v.jpg": "/react-games-shop/static/media/gta-v.be07ce6c.jpg",
-    "static/media/metal-gear-5.png": "/react-games-shop/static/media/metal-gear-5.4a885e79.png",
+    "static/media/metal-gear-5.svg": "/react-games-shop/static/media/metal-gear-5.35bde5cb.svg",
     "static/media/red-dead-redemption-2.jpg": "/react-games-shop/static/media/red-dead-redemption-2.69a52df5.jpg",
-    "static/media/resident-evil-4.jpeg": "/react-games-shop/static/media/resident-evil-4.53617b45.jpeg",
-    "static/media/skyrim.jpg": "/react-games-shop/static/media/skyrim.157471a7.jpg",
+    "static/media/resident-evil-4.svg": "/react-games-shop/static/media/resident-evil-4.7993fd3f.svg",
+    "static/media/skyrim.svg": "/react-games-shop/static/media/skyrim.03aeaf16.svg",
     "static/media/the-legend-of-zelda-breath-of-the-wild.jpg": "/react-games-shop/static/media/the-legend-of-zelda-breath-of-the-wild.761d8ed7.jpg"
   },
   "entrypoints": [
@@ -26,6 +26,6 @@
     "static/css/2.523d07b1.chunk.css",
     "static/js/2.9136694b.chunk.js",
     "static/css/main.4bf78270.chunk.css",
-    "static/js/main.10434557.chunk.js"
+    "static/js/main.eb871e28.chunk.js"
   ]
 }
