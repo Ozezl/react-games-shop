@@ -1,10 +1,6 @@
 import React from 'react';
 import Swal from 'sweetalert2'
-import {
-    AwesomeButton,
-    AwesomeButtonProgress,
-    AwesomeButtonSocial,
-  } from 'react-awesome-button';
+import { AwesomeButton } from 'react-awesome-button';
 import 'react-awesome-button/dist/themes/theme-blue.css';
 import { connect } from 'react-redux'
 import { removeItem, addItem, subtractItem } from '../actions/cartActions'

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import {connect} from 'react-redux'
-import {filterItems} from '../actions/cartActions'
+import { connect } from 'react-redux'
+import { filterItems } from '../actions/cartActions'
 import './Search.css';
 
 export function Search(props) {

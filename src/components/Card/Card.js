@@ -1,14 +1,10 @@
 import React from 'react';
 import Swal from 'sweetalert2'
-import {
-    AwesomeButton,
-    AwesomeButtonProgress,
-    AwesomeButtonSocial,
-  } from 'react-awesome-button';
+import { AwesomeButton } from 'react-awesome-button';
 import 'react-awesome-button/dist/themes/theme-blue.css';
 import './Card.css';
-import {connect} from 'react-redux'
-import {addToCart} from '../actions/cartActions'
+import { connect } from 'react-redux'
+import { addToCart } from '../actions/cartActions'
 
 export function Card(props) {
     function handleClick (id, title) {
@@ -19,7 +15,6 @@ export function Card(props) {
             icon: 'success',
             confirmButtonText: 'Cool'
           })
-        //alert(title + ' is added to the Cart')
     }
 
     return (

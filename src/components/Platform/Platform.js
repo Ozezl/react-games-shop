@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-    AwesomeButton,
-    AwesomeButtonProgress,
-    AwesomeButtonSocial,
-  } from 'react-awesome-button';
+import {AwesomeButton} from 'react-awesome-button';
 import 'react-awesome-button/dist/themes/theme-blue.css';
 import {connect} from 'react-redux'
 import {changePlatform} from '../actions/cartActions'

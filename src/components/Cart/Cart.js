@@ -1,10 +1,6 @@
 import React, { useReducer } from 'react';
 import { connect } from 'react-redux'
-import {
-    AwesomeButton,
-    AwesomeButtonProgress,
-    AwesomeButtonSocial,
-  } from 'react-awesome-button';
+import { AwesomeButton } from 'react-awesome-button';
 import 'react-awesome-button/dist/themes/theme-blue.css';
 import './Cart.css';
 import Item from '../Item/Item'
