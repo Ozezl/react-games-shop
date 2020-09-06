@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-games-shop/static/css/main.3b2d7b19.chunk.css",
-    "main.js": "/react-games-shop/static/js/main.a875a19b.chunk.js",
-    "main.js.map": "/react-games-shop/static/js/main.a875a19b.chunk.js.map",
+    "main.css": "/react-games-shop/static/css/main.e323700a.chunk.css",
+    "main.js": "/react-games-shop/static/js/main.97d36bf9.chunk.js",
+    "main.js.map": "/react-games-shop/static/js/main.97d36bf9.chunk.js.map",
     "runtime-main.js": "/react-games-shop/static/js/runtime-main.4a31b54d.js",
     "runtime-main.js.map": "/react-games-shop/static/js/runtime-main.4a31b54d.js.map",
     "static/css/2.523d07b1.chunk.css": "/react-games-shop/static/css/2.523d07b1.chunk.css",
     "static/js/2.9136694b.chunk.js": "/react-games-shop/static/js/2.9136694b.chunk.js",
     "static/js/2.9136694b.chunk.js.map": "/react-games-shop/static/js/2.9136694b.chunk.js.map",
     "index.html": "/react-games-shop/index.html",
-    "precache-manifest.bd4ac5649d13c79adc7a2db515b9364b.js": "/react-games-shop/precache-manifest.bd4ac5649d13c79adc7a2db515b9364b.js",
+    "precache-manifest.880bc757f9adb6b3eb4620c21d99a62b.js": "/react-games-shop/precache-manifest.880bc757f9adb6b3eb4620c21d99a62b.js",
     "service-worker.js": "/react-games-shop/service-worker.js",
     "static/css/2.523d07b1.chunk.css.map": "/react-games-shop/static/css/2.523d07b1.chunk.css.map",
-    "static/css/main.3b2d7b19.chunk.css.map": "/react-games-shop/static/css/main.3b2d7b19.chunk.css.map",
+    "static/css/main.e323700a.chunk.css.map": "/react-games-shop/static/css/main.e323700a.chunk.css.map",
     "static/js/2.9136694b.chunk.js.LICENSE.txt": "/react-games-shop/static/js/2.9136694b.chunk.js.LICENSE.txt",
     "static/media/gta-v.svg": "/react-games-shop/static/media/gta-v.75226c7e.svg",
     "static/media/metal-gear-5.svg": "/react-games-shop/static/media/metal-gear-5.35bde5cb.svg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.4a31b54d.js",
     "static/css/2.523d07b1.chunk.css",
     "static/js/2.9136694b.chunk.js",
-    "static/css/main.3b2d7b19.chunk.css",
-    "static/js/main.a875a19b.chunk.js"
+    "static/css/main.e323700a.chunk.css",
+    "static/js/main.97d36bf9.chunk.js"
   ]
 }
