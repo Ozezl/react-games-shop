@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c79d084567fe0208ccc464698743a56",
+    "revision": "24a651aa46d2bec5e84f863aa860ccdf",
     "url": "/react-games-shop/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-games-shop/static/css/2.523d07b1.chunk.css"
   },
   {
-    "revision": "4edfc98878b73653754a",
-    "url": "/react-games-shop/static/css/main.4bf78270.chunk.css"
+    "revision": "f40810e4ba529bb6e170",
+    "url": "/react-games-shop/static/css/main.3b2d7b19.chunk.css"
   },
   {
     "revision": "4f390669977d649587ef",
@@ -20,24 +20,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-games-shop/static/js/2.9136694b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4edfc98878b73653754a",
-    "url": "/react-games-shop/static/js/main.eb871e28.chunk.js"
+    "revision": "f40810e4ba529bb6e170",
+    "url": "/react-games-shop/static/js/main.a875a19b.chunk.js"
   },
   {
     "revision": "62b8947cc9c1921d9314",
     "url": "/react-games-shop/static/js/runtime-main.4a31b54d.js"
   },
   {
-    "revision": "be07ce6c030b856acb0353f0e457763d",
-    "url": "/react-games-shop/static/media/gta-v.be07ce6c.jpg"
+    "revision": "75226c7e842379d0daa3545a0c95e5a5",
+    "url": "/react-games-shop/static/media/gta-v.75226c7e.svg"
   },
   {
     "revision": "35bde5cb8c52e58505e7a5b9f8ebc365",
     "url": "/react-games-shop/static/media/metal-gear-5.35bde5cb.svg"
-  },
-  {
-    "revision": "69a52df5c05ae75b176205b1cba35aac",
-    "url": "/react-games-shop/static/media/red-dead-redemption-2.69a52df5.jpg"
   },
   {
     "revision": "7993fd3f5a78ea87b9af2ad6148ca281",
@@ -48,7 +44,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-games-shop/static/media/skyrim.03aeaf16.svg"
   },
   {
-    "revision": "761d8ed7a71a51d636238b597d7342aa",
-    "url": "/react-games-shop/static/media/the-legend-of-zelda-breath-of-the-wild.761d8ed7.jpg"
+    "revision": "efa1e4650eca5425beed9cc65c1a9efb",
+    "url": "/react-games-shop/static/media/the-legend-of-zelda-breath-of-the-wild.efa1e465.svg"
+  },
+  {
+    "revision": "6f71f9160bd089269b1160c00b9cee31",
+    "url": "/react-games-shop/static/media/witcher-3.6f71f916.svg"
   }
 ]);

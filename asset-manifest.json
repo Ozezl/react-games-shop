@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/react-games-shop/static/css/main.4bf78270.chunk.css",
-    "main.js": "/react-games-shop/static/js/main.eb871e28.chunk.js",
-    "main.js.map": "/react-games-shop/static/js/main.eb871e28.chunk.js.map",
+    "main.css": "/react-games-shop/static/css/main.3b2d7b19.chunk.css",
+    "main.js": "/react-games-shop/static/js/main.a875a19b.chunk.js",
+    "main.js.map": "/react-games-shop/static/js/main.a875a19b.chunk.js.map",
     "runtime-main.js": "/react-games-shop/static/js/runtime-main.4a31b54d.js",
     "runtime-main.js.map": "/react-games-shop/static/js/runtime-main.4a31b54d.js.map",
     "static/css/2.523d07b1.chunk.css": "/react-games-shop/static/css/2.523d07b1.chunk.css",
     "static/js/2.9136694b.chunk.js": "/react-games-shop/static/js/2.9136694b.chunk.js",
     "static/js/2.9136694b.chunk.js.map": "/react-games-shop/static/js/2.9136694b.chunk.js.map",
     "index.html": "/react-games-shop/index.html",
-    "precache-manifest.27b7e9f2994979ed8f47333676996d0e.js": "/react-games-shop/precache-manifest.27b7e9f2994979ed8f47333676996d0e.js",
+    "precache-manifest.bd4ac5649d13c79adc7a2db515b9364b.js": "/react-games-shop/precache-manifest.bd4ac5649d13c79adc7a2db515b9364b.js",
     "service-worker.js": "/react-games-shop/service-worker.js",
     "static/css/2.523d07b1.chunk.css.map": "/react-games-shop/static/css/2.523d07b1.chunk.css.map",
-    "static/css/main.4bf78270.chunk.css.map": "/react-games-shop/static/css/main.4bf78270.chunk.css.map",
+    "static/css/main.3b2d7b19.chunk.css.map": "/react-games-shop/static/css/main.3b2d7b19.chunk.css.map",
     "static/js/2.9136694b.chunk.js.LICENSE.txt": "/react-games-shop/static/js/2.9136694b.chunk.js.LICENSE.txt",
-    "static/media/gta-v.jpg": "/react-games-shop/static/media/gta-v.be07ce6c.jpg",
+    "static/media/gta-v.svg": "/react-games-shop/static/media/gta-v.75226c7e.svg",
     "static/media/metal-gear-5.svg": "/react-games-shop/static/media/metal-gear-5.35bde5cb.svg",
-    "static/media/red-dead-redemption-2.jpg": "/react-games-shop/static/media/red-dead-redemption-2.69a52df5.jpg",
     "static/media/resident-evil-4.svg": "/react-games-shop/static/media/resident-evil-4.7993fd3f.svg",
     "static/media/skyrim.svg": "/react-games-shop/static/media/skyrim.03aeaf16.svg",
-    "static/media/the-legend-of-zelda-breath-of-the-wild.jpg": "/react-games-shop/static/media/the-legend-of-zelda-breath-of-the-wild.761d8ed7.jpg"
+    "static/media/the-legend-of-zelda-breath-of-the-wild.svg": "/react-games-shop/static/media/the-legend-of-zelda-breath-of-the-wild.efa1e465.svg",
+    "static/media/witcher-3.svg": "/react-games-shop/static/media/witcher-3.6f71f916.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4a31b54d.js",
     "static/css/2.523d07b1.chunk.css",
     "static/js/2.9136694b.chunk.js",
-    "static/css/main.4bf78270.chunk.css",
-    "static/js/main.eb871e28.chunk.js"
+    "static/css/main.3b2d7b19.chunk.css",
+    "static/js/main.a875a19b.chunk.js"
   ]
 }
