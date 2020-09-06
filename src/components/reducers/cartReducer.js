@@ -1,13 +1,13 @@
-import Item1 from '../../images/red-dead-redemption-2.jpg'
-import Item2 from '../../images/gta-v.jpg'
-import Item3 from '../../images/the-legend-of-zelda-breath-of-the-wild.jpg'
+import Item1 from '../../images/witcher-3.svg'
+import Item2 from '../../images/gta-v.svg'
+import Item3 from '../../images/the-legend-of-zelda-breath-of-the-wild.svg'
 import Item4 from '../../images/resident-evil-4.svg'
 import Item5 from '../../images/skyrim.svg'
 import Item6 from '../../images/metal-gear-5.svg'
 
 const initState = {
     items: [
-        { id:1, title:'Red Dead Redemption 2', platform: "PS4", price: 110, image: Item1 },
+        { id:1, title:'The Witcher 3: Wild Hunt', platform: "PS4", price: 110, image: Item1 },
         { id:2, title:'GTA V', platform: "PS4", price: 80, image: Item2 },
         { id:3, title:'The Legend of Zelda: Breath of the Wild', platform: "SWITCH", price: 120, image: Item3 },
         { id:4, title:'Resident Evil 4', platform: "XBOX", price: 260, image: Item4 },

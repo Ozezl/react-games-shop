@@ -37,13 +37,13 @@ export function Cart(props) {
                 }
             </div>
             <div className="cart-total">
-                <div>
+                <div className="cart-total-amount">
                     The total amount is: {props.total} dollars
                 </div>
                 <AwesomeButton onPress={() => {handleButton()}} type="primary" size="medium">Pay now</AwesomeButton>
             </div>
         </div>
-    )
+    ) 
 }
 
 const mapStateToProps = (state) => {

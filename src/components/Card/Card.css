@@ -37,7 +37,7 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 726px) {
    .card {
         width: 100%;
         margin: 8% auto;
@@ -46,6 +46,10 @@
    .card-buyButton {
         display: flex;
         justify-content: center;
+    }
+
+    .card-wrapper-image {
+        width: 100%;
     }
 
     .card-wrapper-image img {

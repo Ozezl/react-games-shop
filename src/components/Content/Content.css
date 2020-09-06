@@ -26,7 +26,8 @@
     height: 100vh;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 726px) {
+    
     .content-popular {
         display: flex;
         flex-wrap: wrap;

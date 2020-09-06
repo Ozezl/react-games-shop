@@ -78,7 +78,7 @@
     left: 50%
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 726px) {
     .item-innerWrapper-removeButton {
         top: 83%;
         left: 20%;
@@ -96,7 +96,7 @@
 
     .item-innerWrapper-itemPrice {
         font-weight: 600;
-        bottom: 20%;
+        bottom: 18%;
         left: 20%
     }
 
